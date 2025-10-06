@@ -16,9 +16,11 @@ const corsOptions = {
     origin: function (origin, callback) {
         const allowedOrigins = [
             'http://localhost:3000',
+            'http://localhost:3002',
             'http://localhost:3003',
             'http://192.168.1.50:3000',
             'http://192.168.1.50:3001',
+            'http://192.168.1.50:3002',
             'http://local-app.com:3000',
             /https?:\/\/.*\.ngrok-free\.app/
         ];
